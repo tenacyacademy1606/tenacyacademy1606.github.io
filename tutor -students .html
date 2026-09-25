@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>PAUL ACADEMY | My Students</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: #f4f7fc;
+      color: #172b4d;
+    }
+
+    .navbar {
+      background: #061d46;
+      color: white;
+      padding: 18px 25px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px;
+    }
+
+    .student {
+      background: white;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 15px;
+      box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+    }
+
+    .student h2 {
+      margin-top: 0;
+    }
+
+    .student p {
+      color: #667085;
+    }
+
+    button {
+      margin-top: 25px;
+      padding: 12px 20px;
+      border: 0;
+      border-radius: 8px;
+      background: #061d46;
+      color: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="navbar">
+    <strong>PAUL ACADEMY</strong>
+    <span>👨‍🏫 Tutor</span>
+  </div>
+
+  <div class="container">
+
+    <h1>My Students</h1>
+
+    <p>Students assigned to you.</p>
+
+    <div class="student">
+      <h2>👨‍🎓 Example Student</h2>
+      <p>Grade: Grade 8</p>
+      <p>Student ID: ST001</p>
+      <p>Subject: Mathematics</p>
+    </div>
+
+    <div class="student">
+      <h2>👩‍🎓 Example Student 2</h2>
+      <p>Grade: Grade 8</p>
+      <p>Student ID: ST002</p>
+      <p>Subject: English</p>
+    </div>
+
+    <button onclick="location.href='tutor.html'">
+      Back to Tutor Dashboard
+    </button>
+
+  </div>
+
+</body>
+</html>
